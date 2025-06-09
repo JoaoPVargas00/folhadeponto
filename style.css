@@ -1,0 +1,64 @@
+body {
+    font-family: 'Sego UI', sans-serif;
+    background: linear-gradient(to rigth, #ece9e9, #121418);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #e6e2e2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f5f5f5;
+}
+
+input[type=\"time\"], input[type=\"text\"] {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    width: 95%;
+    padding: 5px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

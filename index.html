@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folha de Ponto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Folha de ponto</h1>
+        <form id="pontoForm" method="POST" action="salvar.php">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Entrada</th>
+                        <th>Saída Almoço</th>
+                        <th>Retorno</th>
+                        <th>Saída</th>
+                        <th>Observações</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="pontoBody">
+                    <!-- As linhas dos dias serão adicionadas dinamicamente -->
+                </tbody>
+            </table>
+            <button type="submit">Salvar folha de ponto</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
