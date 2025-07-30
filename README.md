@@ -1,71 +1,86 @@
-# 💱 Conversor de Moedas Web | Currency Converter Web
+# 📋 Folha de Ponto Semanal | Weekly Task Sheet
 
 ## 🇧🇷 Português
 
-Este é um projeto simples de conversor de moedas feito com **HTML**, **CSS** e **JavaScript**. A aplicação converte valores em reais (R$) para outras moedas (USD, EUR e ARS) de forma rápida e intuitiva.
+Este projeto é uma **folha de ponto interativa** desenvolvida com HTML, CSS, JavaScript e PHP. Ele permite que o usuário registre seus afazeres diários da semana, incluindo horários, observações e status de conclusão, salvando tudo em um arquivo `.csv`.
 
 ### ✅ Funcionalidades
 
-- Conversão de reais (BRL) para:
-  - 🇺🇸 Dólar (USD)
-  - 🇮🇹 Euro (EUR)
-  - 🇦🇷 Peso Argentino (ARS)
-- Exibição da bandeira da moeda selecionada
-- Validação de campos obrigatórios
-- Layout moderno e responsivo
+- Geração automática dos dias do mês atual
+- Campos para registrar:
+  - Hora de acordar
+  - Leitura da Palavra
+  - Café da manhã
+  - Organização pessoal
+  - Saída de casa
+  - Observações
+  - Status da tarefa
+- Envio dos dados para armazenamento em `registros.csv`
+- Interface moderna e responsiva
 
 ### 🧩 Tecnologias Utilizadas
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (dinamismo da tabela)
+- PHP (armazenamento dos dados)
+- CSV (como banco de dados simples)
 
 ### 📁 Estrutura do Projeto
 
 
 ### ▶️ Como Usar
 
-1. Baixe ou clone este repositório.
-2. Abra o arquivo `index.html` no navegador.
-3. Digite um valor em reais, selecione a moeda e clique em **Converter**.
+1. Coloque todos os arquivos em um servidor local com suporte a PHP (como XAMPP, WAMP ou Laragon).
+2. Acesse o arquivo `index.html` via navegador.
+3. Preencha os dados e clique em "Afazeres da Semana".
+4. Os registros serão salvos no arquivo `registros.csv`.
 
 ---
 
 ## 🇺🇸 English
 
-This is a simple currency converter project built with **HTML**, **CSS**, and **JavaScript**. The app converts values from Brazilian Real (R$) to other currencies (USD, EUR, ARS) in a fast and user-friendly way.
+This project is an **interactive weekly task sheet** built with HTML, CSS, JavaScript, and PHP. It allows the user to log their daily routine for the current month, including times, notes, and task statuses — storing everything in a `.csv` file.
 
 ### ✅ Features
 
-- Convert BRL to:
-  - 🇺🇸 Dollar (USD)
-  - 🇮🇹 Euro (EUR)
-  - 🇦🇷 Argentine Peso (ARS)
-- Display of selected currency's flag
-- Required field validation
-- Modern and responsive layout
+- Auto-generation of all days of the current month
+- Fields to record:
+  - Wake-up time
+  - Bible reading
+  - Breakfast
+  - Getting ready
+  - Leaving home
+  - Notes
+  - Task status
+- Data submission saved into `registros.csv`
+- Clean and responsive user interface
 
 ### 🧩 Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (dynamic table generation)
+- PHP (data saving)
+- CSV (used as simple database)
 
 ### 📁 Project Structure
 
 
 ### ▶️ How to Use
 
-1. Download or clone this repository.
+1. Place all files into a local PHP server (e.g. XAMPP, WAMP, Laragon).
 2. Open `index.html` in your browser.
-3. Type a value in BRL, select the currency and click **Convert**.
+3. Fill out the tasks and click on "Afazeres da Semana".
+4. Your inputs will be saved into `registros.csv`.
 
 ---
 
-## 📄 License
+## 📄 Licença | License
 
-MIT License. You are free to use, modify and share this project.
+Este projeto está sob a Licença MIT.  
+This project is licensed under the MIT License.
 
 ---
 
-✨ Feito com dedicação por [Seu Nome] | Made with care by [Your Name]
+✍️ Feito com dedicação por [Seu Nome] | Made with care by [Your Name]
